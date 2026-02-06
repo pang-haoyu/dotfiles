@@ -1,85 +1,58 @@
-" ============================================================
-" Core Settings
-" ============================================================
+" ============================================================================
+"                              Core Vim Settings
+" ============================================================================
+
 set nocompatible
 set encoding=utf-8
 set termguicolors
 
+
+" ----------------------------------------------------------------------------
+" History, Undo, and Timing
+" ----------------------------------------------------------------------------
 set backspace=indent,eol,start
+set history=1000
+set undolevels=1000
 set updatetime=300
 set timeoutlen=500
+set ttimeoutlen=10
 
 
-" ============================================================
-" Plugin Management (vim-plug)
-" ============================================================
+" ============================================================================
+"                           Plugin Management (vim-plug)
+" ============================================================================
+
 call plug#begin('~/.vim/plugged')
 
+" Colorscheme
 Plug 'catppuccin/vim', { 'as': 'catppuccin' }
+
+" Statusline
 Plug 'itchyny/lightline.vim'
-Plug 'preservim/nerdtree'
+
+" Comment toggling
 Plug 'tpope/vim-commentary'
-Plug 'jiangmiao/auto-pairs'
+
+" Automatic indentation detection
+Plug 'tpope/vim-sleuth'
+
+" Fuzzy finder
 Plug 'junegunn/fzf',      { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+
+" Language Server Protocol / IntelliSense
+Plug 'neoclide/coc.nvim', { 'branch': 'release' }
 
 call plug#end()
 
 
-" ============================================================
-" Colorscheme
-" ============================================================
+" ============================================================================
+"                               Theme & UI
+" ============================================================================
+
 colorscheme catppuccin_mocha
-
-
-" ============================================================
-" Leader Key
-" ============================================================
-let mapleader = " "
-
-
-" ============================================================
-" Key Mappings
-" ============================================================
-" NERDTree
-nnoremap <Leader>n :NERDTreeToggle<CR>
-
-" FZF
-nnoremap <Leader>f :Files<CR>
-nnoremap <Leader>b :Buffers<CR>
-nnoremap <Leader>l :Lines<CR>
-nnoremap <Leader>g :Rg<Space>
-
-" Clear search highlight
-nnoremap <silent> <Leader>h :nohlsearch<CR>
-
-" Fast split navigation
-nnoremap <C-h> <C-w>h
-nnoremap <C-j> <C-w>j
-nnoremap <C-k> <C-w>k
-nnoremap <C-l> <C-w>l
-
-
 let g:lightline = { 'colorscheme': 'catppuccin_mocha' }
 
-
-" ============================================================
-" NERDTree Settings
-" ============================================================
-let NERDTreeMinimalUI  = 1
-let NERDTreeQuitOnOpen = 1
-
-
-" ============================================================
-" Filetype & Syntax
-" ============================================================
-filetype plugin indent on
-syntax enable
-
-
-" ============================================================
-" UI Settings
-" ============================================================
 set number
 set relativenumber
 set cursorline
@@ -89,38 +62,100 @@ set scrolloff=5
 set sidescrolloff=5
 set laststatus=2
 set noshowmode
+set signcolumn=yes
+set pumheight=8
 
 
-" ============================================================
-" Indentation
-" ============================================================
+" ============================================================================
+"                                Leader Key
+" ============================================================================
+
+let mapleader = " "
+
+
+" ============================================================================
+"                       File Navigation & Window Management
+" ============================================================================
+
+" FZF mappings
+nnoremap <Leader>f :Files<CR>
+nnoremap <Leader>b :Buffers<CR>
+nnoremap <Leader>l :Lines<CR>
+nnoremap <Leader>g :Rg<CR>
+
+" Clear search highlighting
+nnoremap <silent> <Leader>h :nohlsearch<CR>
+
+" Window navigation
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
+
+
+" ============================================================================
+"                          Filetype & Syntax Support
+" ============================================================================
+
+filetype plugin indent on
+syntax enable
+
+
+" ============================================================================
+"                           Indentation & Tabs
+" ============================================================================
+
 set expandtab
 set tabstop=4
+set softtabstop=4
 set shiftwidth=4
 set autoindent
 set smartindent
 set shiftround
 
 
-" ============================================================
-" Search Behavior
-" ============================================================
+" ============================================================================
+"                              Search Behavior
+" ============================================================================
+
 set ignorecase
 set smartcase
 set incsearch
 set hlsearch
 
 
-" ============================================================
-" Mouse & Buffers
-" ============================================================
+" ============================================================================
+"                        General Editing & Window Behavior
+" ============================================================================
+
 set mouse=
 set hidden
+set wildmenu
+set wildmode=longest:full,full
 
-
-" ============================================================
-" Split Behavior
-" ============================================================
 set splitright
 set splitbelow
 
+
+" ============================================================================
+"                     CoC (Conquer of Completion) Configuration
+" ============================================================================
+
+" Confirm completion with Enter
+inoremap <silent><expr> <CR> pumvisible()
+      \ ? coc#_select_confirm()
+      \ : "\<CR>"
+
+" Go to definition / references
+nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gr <Plug>(coc-references)
+
+" Hover documentation
+nnoremap <silent> K :call CocActionAsync('doHover')<CR>
+
+" Rename symbol
+nmap <Leader>rn <Plug>(coc-rename)
+
+" Diagnostic navigation
+nmap <silent> ]g <Plug>(coc-diagnostic-next)
+nmap <silent> [g <Plug>(coc-diagnostic-prev)
