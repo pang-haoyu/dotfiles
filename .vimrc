@@ -30,18 +30,9 @@ Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 " Statusline
 Plug 'itchyny/lightline.vim'
 
-" Comment toggling
-Plug 'tpope/vim-commentary'
-
-" Automatic indentation detection
-Plug 'tpope/vim-sleuth'
-
 " Fuzzy finder
 Plug 'junegunn/fzf',      { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
-
-" Language Server Protocol / IntelliSense
-Plug 'neoclide/coc.nvim', { 'branch': 'release' }
 
 call plug#end()
 
@@ -63,7 +54,6 @@ set sidescrolloff=5
 set laststatus=2
 set noshowmode
 set signcolumn=yes
-set pumheight=8
 
 
 " ============================================================================
@@ -136,26 +126,3 @@ set wildmode=longest:full,full
 set splitright
 set splitbelow
 
-
-" ============================================================================
-"                     CoC (Conquer of Completion) Configuration
-" ============================================================================
-
-" Confirm completion with Enter
-inoremap <silent><expr> <CR> pumvisible()
-      \ ? coc#_select_confirm()
-      \ : "\<CR>"
-
-" Go to definition / references
-nmap <silent> gd <Plug>(coc-definition)
-nmap <silent> gr <Plug>(coc-references)
-
-" Hover documentation
-nnoremap <silent> K :call CocActionAsync('doHover')<CR>
-
-" Rename symbol
-nmap <Leader>rn <Plug>(coc-rename)
-
-" Diagnostic navigation
-nmap <silent> ]g <Plug>(coc-diagnostic-next)
-nmap <silent> [g <Plug>(coc-diagnostic-prev)
