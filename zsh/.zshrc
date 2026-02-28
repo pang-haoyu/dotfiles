@@ -26,15 +26,15 @@ zstyle ':completion:*' menu select
 zstyle ':completion:*' group-name ''
 zstyle ':completion:*:descriptions' format $'%F{yellow}-- %d --%f'
 zstyle ':completion:*' matcher-list \
+  '' \
   'm:{a-zA-Z}={A-Za-z}' \
   'r:|[._-]=* r:|=*'
-zstyle ':completion:*' completer _expand _complete _correct
+zstyle ':completion:*' completer _expand _complete _ignored _approximate
 eval "$(dircolors -b)"
 zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
 
 
 alias ls='ls --color=auto'
-alias bat=batcat
 
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
@@ -51,9 +51,6 @@ export FZF_DEFAULT_OPTS=" \
 --color=border:#6C7086,label:#CDD6F4"
 
 
-eval "$(zoxide init zsh --cmd cd)"
-
-
 eval "$(starship init zsh)"
 
 
@@ -65,5 +62,5 @@ source ~/.zsh/catppuccin_mocha-zsh-syntax-highlighting.zsh
 
 
 export PATH="$HOME/.local/bin:$PATH"
-alias zed="ZED_USE_WGPU=gl ZED_DEVICE_ID="8086:46a3" /home/pang/.local/zed.app/bin/zed --new"
+alias zed='VK_ICD_FILENAMES=/usr/share/vulkan/icd.d/intel_icd.json /home/pang/.local/zed.app/bin/zed --new'
 
