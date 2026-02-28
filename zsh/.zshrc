@@ -63,3 +63,7 @@ source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.zsh/catppuccin_mocha-zsh-syntax-highlighting.zsh
 
+
+export PATH="$HOME/.local/bin:$PATH"
+alias zed="ZED_USE_WGPU=gl ZED_DEVICE_ID="8086:46a3" /home/pang/.local/zed.app/bin/zed --new"
+
