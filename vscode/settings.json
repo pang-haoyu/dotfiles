@@ -1,0 +1,21 @@
+{
+  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.iconTheme": "catppuccin-mocha",
+  "workbench.productIconTheme": "material-product-icons",
+  "workbench.colorCustomizations": null
+  "catppuccin.accentColor": "lavender",
+  "editor.fontSize": 16,
+  "editor.fontWeight": "600",
+  "editor.fontFamily": "JetBrainsMono Nerd Font",
+  "telemetry.telemetryLevel": "off",
+  "telemetry.editStats.enabled": false,
+  "telemetry.feedback.enabled": false,
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+  "[typst]": {
+    "editor.formatOnSave": true
+  }
+}
