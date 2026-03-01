@@ -60,7 +60,3 @@ source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.zsh/catppuccin_mocha-zsh-syntax-highlighting.zsh
 
-
-export PATH="$HOME/.local/bin:$PATH"
-alias zed='VK_ICD_FILENAMES=/usr/share/vulkan/icd.d/intel_icd.json /home/pang/.local/zed.app/bin/zed --new'
-
