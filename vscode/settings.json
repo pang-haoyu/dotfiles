@@ -3,7 +3,7 @@
   "workbench.colorTheme": "Catppuccin Mocha",
   "workbench.iconTheme": "catppuccin-mocha",
   "workbench.productIconTheme": "material-product-icons",
-  "workbench.colorCustomizations": null
+  "workbench.colorCustomizations": null,
   "catppuccin.accentColor": "lavender",
   "editor.fontSize": 16,
   "editor.fontWeight": "600",
