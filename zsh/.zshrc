@@ -30,6 +30,7 @@ zstyle ':completion:*' matcher-list \
   'm:{a-zA-Z}={A-Za-z}' \
   'r:|[._-]=* r:|=*'
 zstyle ':completion:*' completer _expand _complete _ignored _approximate
+zstyle ':completion:*:approximate:*' max-errors 1
 eval "$(dircolors -b)"
 zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
 
