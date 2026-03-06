@@ -2,6 +2,7 @@
     "workbench.colorTheme": "Catppuccin Mocha",
     "workbench.iconTheme": "catppuccin-mocha",
     "workbench.productIconTheme": "material-product-icons",
+    "workbench.startupEditor": "none",
     "catppuccin.accentColor": "lavender",
     "editor.fontSize": 16,
     "editor.fontFamily": "JetBrainsMono Nerd Font",

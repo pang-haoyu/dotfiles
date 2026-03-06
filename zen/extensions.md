@@ -6,4 +6,5 @@
 4. Zen Internet
 5. RYS — Remove YouTube Suggestions
 6. Stylus
+7. Bitwarden Password Manager
 
