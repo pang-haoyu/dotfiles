@@ -1,0 +1,20 @@
+{
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "workbench.iconTheme": "catppuccin-mocha",
+    "workbench.productIconTheme": "material-product-icons",
+    "catppuccin.accentColor": "lavender",
+    "editor.fontSize": 16,
+    "editor.fontFamily": "JetBrainsMono Nerd Font",
+    "editor.cursorBlinking": "solid",
+    "cSpell.language": "en-GB",
+    "vim.cursorStylePerMode.insert": "block",
+    "vim.cursorStylePerMode.normal": "block",
+    "vim.cursorStylePerMode.replace": "block",
+    "vim.cursorStylePerMode.visual": "block",
+    "vim.cursorStylePerMode.visualblock": "block",
+    "vim.cursorStylePerMode.visualline": "block",
+    "vim.smartRelativeLine": true,
+    "[typst]": {
+        "editor.formatOnSave": true
+    }
+}
