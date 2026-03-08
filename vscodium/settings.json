@@ -6,6 +6,7 @@
     "catppuccin.accentColor": "lavender",
     "editor.fontSize": 16,
     "editor.fontFamily": "JetBrainsMono Nerd Font",
+    "editor.fontWeight": "550",
     "editor.cursorBlinking": "solid",
     "cSpell.language": "en-GB",
     "vim.cursorStylePerMode.insert": "block",
@@ -17,5 +18,7 @@
     "vim.smartRelativeLine": true,
     "[typst]": {
         "editor.formatOnSave": true
-    }
+    },
+    "markdown-preview-enhanced.previewTheme": "github-dark.css",
+    "markdown-preview-enhanced.mermaidTheme": "dark"
 }
