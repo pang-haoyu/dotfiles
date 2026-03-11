@@ -16,9 +16,10 @@
     "vim.cursorStylePerMode.visualblock": "block",
     "vim.cursorStylePerMode.visualline": "block",
     "vim.smartRelativeLine": true,
+    "[markdown]": {
+        "editor.formatOnSave": true,
+    },
     "[typst]": {
         "editor.formatOnSave": true
-    },
-    "markdown-preview-enhanced.previewTheme": "github-dark.css",
-    "markdown-preview-enhanced.mermaidTheme": "dark"
+    }
 }
