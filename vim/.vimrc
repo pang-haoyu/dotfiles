@@ -27,8 +27,8 @@ set showcmd
 set wrap
 set linebreak
 set breakindent
-set scrolloff=5
-set sidescrolloff=5
+set scrolloff=10
+set sidescrolloff=10
 set laststatus=2
 set noshowmode
 set signcolumn=yes
