@@ -39,11 +39,11 @@ alias ls='ls --color=auto'
 
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-export FZF_DEFAULT_COMMAND="fdfind --hidden --follow --exclude .git"
-export FZF_CTRL_T_COMMAND='fdfind --type f --hidden --follow --exclude .git'
-export FZF_ALT_C_COMMAND='fdfind --type d --hidden --follow --exclude .git'
-export FZF_CTRL_T_OPTS="--preview 'batcat --style=numbers --color=always {}' --preview-window=right:50%:wrap"
-export FZF_ALT_C_OPTS="--preview 'tree -a -C {} | head -200' --preview-window=right:50%"
+export FZF_DEFAULT_COMMAND="fd --hidden --follow --exclude .git"
+export FZF_CTRL_T_COMMAND='fd --type f --hidden --follow --exclude .git'
+export FZF_ALT_C_COMMAND='fd --type d --hidden --follow --exclude .git'
+export FZF_CTRL_T_OPTS="--preview 'bat --style=numbers --color=always {}' --preview-window=right:50%:wrap"
+export FZF_ALT_C_OPTS="--preview 'tree -a -C -I \".git|node_modules|.cache\" {} | head -200' --preview-window=right:50%"
 export FZF_DEFAULT_OPTS=" \
 --color=bg+:#313244,bg:#1E1E2E,spinner:#F5E0DC,hl:#F38BA8 \
 --color=fg:#CDD6F4,header:#F38BA8,info:#CBA6F7,pointer:#F5E0DC \
