@@ -20,10 +20,9 @@ bindkey -e
 
 
 autoload -Uz compinit
-compinit
 zmodload zsh/complist
+compinit
 zstyle ':completion:*' menu select
-zstyle ':completion:*' group-name ''
 zstyle ':completion:*:descriptions' format $'%F{yellow}-- %d --%f'
 zstyle ':completion:*' matcher-list \
   '' \
@@ -33,9 +32,6 @@ zstyle ':completion:*' completer _expand _complete _ignored _approximate
 zstyle ':completion:*:approximate:*' max-errors 1
 eval "$(dircolors -b)"
 zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
-
-
-alias ls='ls --color=auto'
 
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
@@ -52,6 +48,15 @@ export FZF_DEFAULT_OPTS=" \
 --color=border:#6C7086,label:#CDD6F4"
 
 
+eval "$(zoxide init zsh)"
+__zoxide_z_complete() {
+  _cd "$@"
+}
+
+compdef __zoxide_z_complete z
+compdef __zoxide_z_complete zi
+
+
 eval "$(starship init zsh)"
 
 
@@ -60,4 +65,10 @@ source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.zsh/catppuccin_mocha-zsh-syntax-highlighting.zsh
+
+
+alias ls='eza --icons --group-directories-first --git'
+alias ll='eza -lh --icons --group-directories-first --git'
+alias la='eza -a --icons --group-directories-first --git'
+alias lt='eza --tree --level=2 --icons'
 
