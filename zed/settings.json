@@ -1,21 +1,10 @@
 {
-  "buffer_font_weight": 500.0,
-  "restore_on_startup": "empty_tab",
-  "vim": {
-    "cursor_shape": {
-      "replace": "block",
-      "insert": "block",
-    },
-    "toggle_relative_line_numbers": true,
-  },
-  "cursor_blink": false,
-  "buffer_font_family": "JetBrainsMono Nerd Font",
-  "telemetry": {
-    "diagnostics": false,
-    "metrics": false,
-  },
-  "vim_mode": true,
   "base_keymap": "VSCode",
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "Catppuccin Mocha (lavender)",
+  },
   "icon_theme": {
     "mode": "dark",
     "light": "Zed (Default)",
@@ -23,9 +12,19 @@
   },
   "ui_font_size": 16,
   "buffer_font_size": 15.0,
-  "theme": {
-    "mode": "dark",
-    "light": "One Light",
-    "dark": "Catppuccin Mocha (lavender)",
+  "buffer_font_family": "JetBrainsMono Nerd Font",
+  "buffer_font_weight": 500.0,
+  "cursor_blink": false,
+  "restore_on_startup": "empty_tab",
+  "vim_mode": true,
+  "vim": {
+    "toggle_relative_line_numbers": true,
+  },
+  "terminal": {
+    "font_size": 13,
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
   },
 }

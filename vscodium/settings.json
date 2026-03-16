@@ -12,12 +12,6 @@
     "workbench.editor.restoreEditors": false,
     "terminal.integrated.persistentSessionReviveProcess": "never",
     "cSpell.language": "en-GB",
-    "vim.cursorStylePerMode.insert": "block",
-    "vim.cursorStylePerMode.normal": "block",
-    "vim.cursorStylePerMode.replace": "block",
-    "vim.cursorStylePerMode.visual": "block",
-    "vim.cursorStylePerMode.visualblock": "block",
-    "vim.cursorStylePerMode.visualline": "block",
     "vim.smartRelativeLine": true,
     "[markdown]": {
         "editor.formatOnSave": true,
