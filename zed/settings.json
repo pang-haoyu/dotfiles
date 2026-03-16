@@ -15,7 +15,7 @@
   "buffer_font_family": "JetBrainsMono Nerd Font",
   "buffer_font_weight": 500.0,
   "cursor_blink": false,
-  "restore_on_startup": "empty_tab",
+  "restore_on_startup": "launchpad",
   "vim_mode": true,
   "vim": {
     "toggle_relative_line_numbers": true,
