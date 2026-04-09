@@ -10,4 +10,5 @@
 8. Bitwarden
 9. Localsend
 10. Zed
+11. Signal
 

@@ -38,7 +38,7 @@ zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
 export FZF_DEFAULT_COMMAND="fd --hidden --follow --exclude .git"
 export FZF_CTRL_T_COMMAND='fd --type f --hidden --follow --exclude .git'
 export FZF_ALT_C_COMMAND='fd --type d --hidden --follow --exclude .git'
-export FZF_CTRL_T_OPTS="--preview 'bat --style=numbers --color=always {}' --preview-window=right:50%:wrap"
+export FZF_CTRL_T_OPTS="--preview 'bat --style=numbers --color=always --line-range=:500 {}' --preview-window=right:50%:wrap"
 export FZF_ALT_C_OPTS="--preview 'tree -a -C -I \".git|node_modules|.cache\" {} | head -200' --preview-window=right:50%"
 export FZF_DEFAULT_OPTS=" \
 --color=bg+:#313244,bg:#1E1E2E,spinner:#F5E0DC,hl:#F38BA8 \
