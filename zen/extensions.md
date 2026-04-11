@@ -1,10 +1,9 @@
 # Extensions
 
-1. SponsorBlock - Skip Sponsorships on YouTube
-2. Vimium
-3. uBlock Origin
-4. Zen Internet
-5. RYS — Remove YouTube Suggestions
-6. Bitwarden Password Manager
-7. Stylus
+1. Vimium
+2. uBlock Origin
+3. RYS — Remove YouTube Suggestions
+4. Bitwarden Password Manager
+5. Stylus
+6. SponsorBlock
 

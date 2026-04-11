@@ -16,8 +16,8 @@ let g:lightline = { 'colorscheme': 'catppuccin_mocha' }
 set backspace=indent,eol,start
 set history=1000
 set undolevels=1000
-set updatetime=300
-set timeoutlen=500
+set updatetime=250
+set timeoutlen=300
 set ttimeoutlen=10
 
 set number
