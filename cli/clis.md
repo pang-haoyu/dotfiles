@@ -9,5 +9,5 @@
 7. tldr
 8. zoxide
 9. fd
-10. lazyvim
+10. btop
 
