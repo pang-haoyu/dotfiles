@@ -10,4 +10,7 @@
 8. zoxide
 9. fd
 10. btop
+11. fastfetch
+12. cmatrix
+13. sl
 
