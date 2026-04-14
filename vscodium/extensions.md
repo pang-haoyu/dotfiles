@@ -10,4 +10,5 @@
 8. Tinymist Typst
 9. Vim
 10. vscode-pdf
+11. Error Lens
 

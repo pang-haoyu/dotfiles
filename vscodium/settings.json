@@ -18,6 +18,7 @@
     "terminal.integrated.persistentSessionReviveProcess": "never",
     "terminal.integrated.initialHint": false,
     "cSpell.language": "en-GB",
+    "errorLens.messageBackgroundMode": "message",
     "vim.smartRelativeLine": true,
     "[markdown]": {
         "editor.formatOnSave": true,
