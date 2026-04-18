@@ -1,7 +1,7 @@
 # Apps
 
 1. Firefox Browser (system default)
-2. Brave Browser (third-party APT repository)
+2. Brave Origin Browser (third-party APT repository)
 3. Zen Browser (flatpak)
 4. VSCodium (third-party APT repository)
 5. Obsidian (flatpak)
