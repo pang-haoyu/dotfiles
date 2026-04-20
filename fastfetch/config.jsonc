@@ -73,8 +73,8 @@
     {
       "type": "memory",
       "key": "󰍛 Memory",
+      "format": "{used} / {total} ({percentage})",
       "percent": {
-        "type": 1,
         "green": 35,
         "yellow": 70
       }
@@ -82,8 +82,8 @@
     {
       "type": "swap",
       "key": "󰓡 Swap",
+      "format": "{used} / {total} ({percentage})",
       "percent": {
-        "type": 1,
         "green": 20,
         "yellow": 60
       }
