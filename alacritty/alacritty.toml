@@ -6,6 +6,7 @@ general.import = [
 decorations = "None"
 padding = { x = 5, y = 0 }
 dynamic_padding = true
+opacity = 0.95
 
 [font]
 normal = { family = "JetBrainsMono Nerd Font", style = "SemiBold" }
