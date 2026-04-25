@@ -72,5 +72,3 @@ alias ll='eza -lh --icons --group-directories-first --git'
 alias la='eza -a --icons --group-directories-first --git'
 alias lt='eza --tree --level=2 --icons'
 
-fastfetch
-
