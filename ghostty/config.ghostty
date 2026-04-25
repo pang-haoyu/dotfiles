@@ -9,6 +9,9 @@ window-decoration = false
 window-padding-x = 5
 window-padding-balance = true
 
+background-opacity = 0.95
+background-blur = true
+
 cursor-style = block
 cursor-style-blink = false
 shell-integration-features = no-cursor
