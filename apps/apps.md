@@ -12,4 +12,5 @@
 10. Signal (APT repository)
 11. Helium Browser (APT repository)
 12. Ghostty (APT repository, community)
+13. onlyoffice (flatpak)
 
