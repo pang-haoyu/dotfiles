@@ -23,6 +23,7 @@
     "[markdown]": {
         "editor.formatOnSave": true,
     },
+    "markdown-preview-enhanced.automaticallyShowPreviewOfMarkdownBeingEdited": true,
     "[typst]": {
         "editor.formatOnSave": true
     }
