@@ -11,6 +11,6 @@
 9. Zed (shell-script installer)
 10. Signal (APT repository)
 11. Helium Browser (APT repository)
-12. Ghostty (APT repository, community)
+12. Ghostty (PPA)
 13. onlyoffice (flatpak)
 

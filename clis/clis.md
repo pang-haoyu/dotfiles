@@ -13,4 +13,5 @@
 11. fastfetch
 12. cmatrix
 13. sl
+14. yazi
 
