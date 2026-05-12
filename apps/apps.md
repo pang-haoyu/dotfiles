@@ -15,5 +15,4 @@
 13. OnlyOffice (flatpak)
 14. OBS Studio (flatpak)
 15. Obsidian (flatpak)
-16. Gradia (flatpak)
 
