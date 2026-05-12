@@ -12,5 +12,8 @@
 10. Signal (APT repository)
 11. Helium Browser (APT repository)
 12. Ghostty (PPA)
-13. onlyoffice (flatpak)
+13. OnlyOffice (flatpak)
+14. OBS Studio (flatpak)
+15. Obsidian (flatpak)
+16. Gradia (flatpak)
 
