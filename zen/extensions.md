@@ -4,4 +4,5 @@
 2. uBlock Origin
 3. RYS
 4. SponsorBlock
+5. Stylus
 
