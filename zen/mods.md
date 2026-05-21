@@ -4,4 +4,6 @@
 2. Cleaned URL bar
 3. Disable Status Bar
 4. No Top Sites
+5. Ghost Tabs 
+6. Back Fwd Always Hidden
 
