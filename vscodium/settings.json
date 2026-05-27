@@ -19,6 +19,10 @@
     "terminal.integrated.initialHint": false,
     "cSpell.language": "en-GB",
     "errorLens.messageBackgroundMode": "message",
+    "errorLens.enabledDiagnosticLevels": [
+        "error",
+        "warning"
+    ],
     "vim.smartRelativeLine": true,
     "[markdown]": {
         "editor.formatOnSave": true,
