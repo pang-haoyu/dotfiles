@@ -24,6 +24,7 @@
         "warning"
     ],
     "vim.smartRelativeLine": true,
+    "vim.useSystemClipboard": true,
     "[markdown]": {
         "editor.formatOnSave": true,
     },
