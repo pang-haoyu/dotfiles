@@ -25,6 +25,16 @@
     ],
     "vim.smartRelativeLine": true,
     "vim.useSystemClipboard": true,
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["j"],
+            "after": ["g", "j"]
+        },
+        {
+            "before": ["k"],
+            "after": ["g", "k"]
+        }
+    ],
     "[markdown]": {
         "editor.formatOnSave": true,
     },
