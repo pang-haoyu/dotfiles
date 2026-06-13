@@ -2,7 +2,6 @@
 
 1. Vimium
 2. uBlock Origin
-3. RYS
-4. SponsorBlock
-5. Stylus
+3. RYS — Remove YouTube Suggestions
+4. SponsorBlock - Skip Sponsorships on YouTube
 
