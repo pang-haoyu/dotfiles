@@ -1,0 +1,21 @@
+! Feb 25, 2026 https://search.brave.com
+search.brave.com###main > .svelte-jz8lnl
+search.brave.com##.svelte-1i19ct2.footer > .svelte-jz8lnl
+
+! Jun 10, 2026 https://www.startpage.com
+www.startpage.com##.eu3pp1u0.css-wdiap8
+www.startpage.com##.css-adglkl.dropdown-button
+www.startpage.com##.css-c4nico.feedback-widget > .css-to8v82.feedback-button-container > .css-9g5pfm.feedback-button
+
+! Jun 10, 2026 https://www.google.com
+www.google.com##.uU7dJb
+www.google.com##.SSwjIe.KxwPGc
+www.google.com###gws-output-pages-elements-homepage_additional_languages__als
+www.google.com##.YNk70c.TrMVnc.f6F9Be
+
+chatgpt.com##html.dark:remove-attr(data-oled)
+chatgpt.com##html.dark:style(--main-surface-primary: #212121 !important;)
+
+! Jun 14, 2026 https://duckduckgo.com
+duckduckgo.com##.footer
+duckduckgo.com##.Yy4FVTLlXDKk7XaBX_nT._I0sotAoeGtAJzkzyutg.fIgpqHfKgUmmk5lqmvL5
