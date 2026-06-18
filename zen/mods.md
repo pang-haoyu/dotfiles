@@ -1,9 +1,8 @@
 # Mods
 
 1. Better Find Bar
-2. Cleaned URL bar
-3. Disable Status Bar
-4. No Top Sites
-5. Ghost Tabs 
-6. Back Fwd Always Hidden
+2. Disable Status Bar
+3. No Top Sites
+4. Ghost Tabs
+5. Back Fwd Always Hidden
 
