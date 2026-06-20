@@ -12,10 +12,3 @@ www.google.com##.uU7dJb
 www.google.com##.SSwjIe.KxwPGc
 www.google.com###gws-output-pages-elements-homepage_additional_languages__als
 www.google.com##.YNk70c.TrMVnc.f6F9Be
-
-chatgpt.com##html.dark:remove-attr(data-oled)
-chatgpt.com##html.dark:style(--main-surface-primary: #212121 !important;)
-
-! Jun 14, 2026 https://duckduckgo.com
-duckduckgo.com##.footer
-duckduckgo.com##.Yy4FVTLlXDKk7XaBX_nT._I0sotAoeGtAJzkzyutg.fIgpqHfKgUmmk5lqmvL5
