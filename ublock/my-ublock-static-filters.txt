@@ -2,11 +2,6 @@
 search.brave.com###main > .svelte-jz8lnl
 search.brave.com##.svelte-1i19ct2.footer > .svelte-jz8lnl
 
-! Jun 10, 2026 https://www.startpage.com
-www.startpage.com##.eu3pp1u0.css-wdiap8
-www.startpage.com##.css-adglkl.dropdown-button
-www.startpage.com##.css-c4nico.feedback-widget > .css-to8v82.feedback-button-container > .css-9g5pfm.feedback-button
-
 ! Jun 10, 2026 https://www.google.com
 www.google.com##.uU7dJb
 www.google.com##.SSwjIe.KxwPGc
