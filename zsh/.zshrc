@@ -4,8 +4,8 @@ setopt interactive_comments
 setopt extended_glob
 
 
-HISTSIZE=1000
-SAVEHIST=1000
+HISTSIZE=10000
+SAVEHIST=10000
 HISTFILE=~/.zsh_history
 setopt append_history
 setopt inc_append_history
@@ -70,5 +70,6 @@ source ~/.zsh/catppuccin_mocha-zsh-syntax-highlighting.zsh
 alias ls='eza --icons --group-directories-first --git'
 alias ll='eza -lh --icons --group-directories-first --git'
 alias la='eza -a --icons --group-directories-first --git'
+alias lla='eza -lha --icons --group-directories-first --git'
 alias lt='eza --tree --level=2 --icons'
 

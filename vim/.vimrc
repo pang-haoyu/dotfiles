@@ -6,12 +6,15 @@ syntax enable
 call plug#begin('~/.vim/plugged')
 Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 Plug 'itchyny/lightline.vim'
-Plug 'junegunn/fzf',      { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 call plug#end()
 
 colorscheme catppuccin_mocha
-let g:lightline = { 'colorscheme': 'catppuccin_mocha' }
+
+let g:lightline = {
+      \ 'colorscheme': 'catppuccin_mocha',
+      \ }
 
 set backspace=indent,eol,start
 set history=1000
@@ -60,7 +63,9 @@ nnoremap <Leader>f :Files<CR>
 nnoremap <Leader>b :Buffers<CR>
 nnoremap <Leader>l :Lines<CR>
 nnoremap <Leader>g :Rg<CR>
+
 nnoremap <silent> <Esc> :nohlsearch<CR><Esc>
+
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
