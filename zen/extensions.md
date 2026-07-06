@@ -4,4 +4,5 @@
 2. uBlock Origin
 3. SponsorBlock - Skip Sponsorships on YouTube
 4. Stylus
+5. New Tab Override
 
