@@ -5,4 +5,5 @@
 3. SponsorBlock
 4. Unhook
 5. New Tab Override
+6. Bitwarden
 
