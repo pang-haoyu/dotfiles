@@ -13,4 +13,6 @@
 11. Helium Browser (APT repository)
 12. Ghostty (PPA)
 13. OnlyOffice (flatpak)
+14. Obsidian (flatpak)
+15. Element (APT repository)
 
