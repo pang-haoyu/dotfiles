@@ -1,18 +1,87 @@
+# Theme
 theme = Catppuccin Mocha
 
+
+# Font
 font-family = JetBrainsMono NF SemiBold
 font-family-bold = JetBrainsMono NF Bold
 font-family-italic = JetBrainsMono NF SemiBold Italic
 font-family-bold-italic = JetBrainsMono NF Bold Italic
 
-window-decoration = false
-window-padding-x = 5
-window-padding-balance = true
+adjust-cell-height = 5%
 
-background-opacity = 0.95
 
+# Cursor
 cursor-style = block
 cursor-style-blink = false
-shell-integration-features = no-cursor
 
+
+# Shell integration
+shell-integration = detect
+shell-integration-features = no-cursor,ssh-env,ssh-terminfo
+
+
+# Mouse
 mouse-hide-while-typing = true
+
+
+# Window
+window-decoration = none
+
+window-padding-x = 10
+window-padding-y = 5
+window-padding-balance = true
+
+window-inherit-working-directory = true
+tab-inherit-working-directory = true
+split-inherit-working-directory = true
+
+window-inherit-font-size = true
+
+
+# Scrollback
+scrollback-limit = 33554432
+
+
+# Split behavior
+split-preserve-zoom = navigation
+resize-overlay = never
+
+
+# Create split
+keybind = ctrl+shift+enter=new_split:auto
+
+
+# Navigate splits
+keybind = ctrl+shift+h=goto_split:left
+keybind = ctrl+shift+j=goto_split:down
+keybind = ctrl+shift+k=goto_split:up
+keybind = ctrl+shift+l=goto_split:right
+
+
+# Resize splits
+keybind = performable:ctrl+shift+alt+h=resize_split:left,20
+keybind = performable:ctrl+shift+alt+j=resize_split:down,20
+keybind = performable:ctrl+shift+alt+k=resize_split:up,20
+keybind = performable:ctrl+shift+alt+l=resize_split:right,20
+
+
+# Equalize splits
+keybind = performable:ctrl+shift+alt+equal=equalize_splits
+
+
+# Close focused surface
+keybind = ctrl+shift+w=close_surface
+
+
+# Zoom focused split
+keybind = performable:ctrl+shift+z=toggle_split_zoom
+
+
+# Jump between shell prompts
+keybind = ctrl+shift+up=jump_to_prompt:-1
+keybind = ctrl+shift+down=jump_to_prompt:1
+
+
+# Search scrollback
+keybind = ctrl+shift+f=start_search
