@@ -1,20 +1,36 @@
 {
+  "project_panel": {
+    "dock": "left"
+  },
+  "outline_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "agent": {
+    "dock": "right",
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "git_panel": {
+    "dock": "left"
+  },
   "base_keymap": "VSCode",
   "theme": {
     "mode": "dark",
-    "light": "One Light",
+    "light": "Catppuccin Latte (lavender)",
     "dark": "Catppuccin Mocha (lavender)",
   },
   "icon_theme": {
     "mode": "dark",
-    "light": "Zed (Default)",
+    "light": "Catppuccin Latte",
     "dark": "Catppuccin Mocha",
   },
   "ui_font_size": 16,
   "buffer_font_size": 15.0,
   "buffer_font_family": "JetBrainsMono Nerd Font",
   "buffer_font_weight": 500.0,
-  "cursor_blink": false,
   "restore_on_startup": "launchpad",
   "vim_mode": true,
   "vim": {
