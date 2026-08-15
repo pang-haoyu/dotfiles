@@ -14,4 +14,5 @@
 12. cmatrix
 13. sl
 14. yazi
+15. opencode
 

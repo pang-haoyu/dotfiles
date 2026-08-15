@@ -6,5 +6,4 @@
 4. Unhook
 5. New Tab Override
 6. Bitwarden
-7. Stylus
 
