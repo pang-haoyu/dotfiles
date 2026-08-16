@@ -3,7 +3,7 @@
 1. Firefox Browser (system default)
 2. Brave Origin Browser (APT repository)
 3. Zen Browser (flatpak)
-4. VSCodium (APT repository)
+4. Visual Studio Code (debian package)
 5. Thunderbird (system default)
 6. Alacritty (Cargo)
 7. Bitwarden (flatpak)
@@ -14,5 +14,4 @@
 12. Ghostty (PPA)
 13. OnlyOffice (flatpak)
 14. Obsidian (flatpak)
-15. Element (APT repository)
 

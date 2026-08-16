@@ -1,0 +1,66 @@
+{
+    // ─────────────────────────────────────────────
+    // Workbench / Appearance
+    // ─────────────────────────────────────────────
+    "workbench.startupEditor": "none",
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "workbench.iconTheme": "catppuccin-mocha",
+    "workbench.productIconTheme": "material-product-icons",
+    "workbench.experimental.modernUI": true,
+    "workbench.sideBar.location": "right",
+    "workbench.layoutControl.enabled": false,
+    "workbench.browser.showInTitleBar": false,
+
+    // Catppuccin
+    "catppuccin.accentColor": "lavender",
+
+    // ─────────────────────────────────────────────
+    // Window
+    // ─────────────────────────────────────────────
+    "window.commandCenter": false,
+    "window.menuBarVisibility": "toggle",
+    "window.restoreWindows": "none",
+
+    // ─────────────────────────────────────────────
+    // Editor
+    // ─────────────────────────────────────────────
+    "editor.fontFamily": "JetBrainsMono Nerd Font",
+    "editor.minimap.enabled": false,
+    "editor.cursorBlinking": "solid",
+
+    // ─────────────────────────────────────────────
+    // Terminal
+    // ─────────────────────────────────────────────
+    "terminal.integrated.initialHint": false,
+    "terminal.integrated.persistentSessionReviveProcess": "never",
+
+    // ─────────────────────────────────────────────
+    // Vim
+    // ─────────────────────────────────────────────
+    "vim.smartRelativeLine": true,
+    "vim.useSystemClipboard": true,
+
+    // ─────────────────────────────────────────────
+    // Diagnostics / Error Lens
+    // ─────────────────────────────────────────────
+    "errorLens.messageBackgroundMode": "message",
+    "errorLens.enabledDiagnosticLevels": [
+        "error",
+        "warning"
+    ],
+
+    // ─────────────────────────────────────────────
+    // Spell Checker
+    // ─────────────────────────────────────────────
+    "cSpell.language": "en-GB",
+
+    // ─────────────────────────────────────────────
+    // AI / Chat
+    // ─────────────────────────────────────────────
+    "chat.disableAIFeatures": true,
+
+    // ─────────────────────────────────────────────
+    // Privacy / Telemetry
+    // ─────────────────────────────────────────────
+    "telemetry.telemetryLevel": "off"
+}
