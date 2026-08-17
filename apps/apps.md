@@ -14,4 +14,6 @@
 12. Ghostty (PPA)
 13. OnlyOffice (flatpak)
 14. Obsidian (flatpak)
+15. FreeCAD (flatpak)
+16. KiCad (PPA)
 
