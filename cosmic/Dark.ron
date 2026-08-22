@@ -64,7 +64,7 @@
     warning: Some("#EED49FFF"),
     destructive: Some("#ED8796FF"),
     frosted: Medium,
-    gaps: (0, 8),
+    gaps: (0, 5),
     active_hint: 2,
     window_hint: Some("#B7BDF8FF"),
     frosted_windows: true,
