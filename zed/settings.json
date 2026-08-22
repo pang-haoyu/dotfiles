@@ -4,7 +4,7 @@
 
   // Editor
   "vim_mode": true,
-  "base_keymap": "VSCode",
+  "base_keymap": "Zed",
   "buffer_font_family": "JetBrainsMono Nerd Font",
   "buffer_font_size": 15,
   "cursor_blink": false,
