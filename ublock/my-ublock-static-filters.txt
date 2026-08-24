@@ -2,8 +2,8 @@
 search.brave.com###main > .svelte-jz8lnl
 search.brave.com##.svelte-1i19ct2.footer > .svelte-jz8lnl
 
-! Jun 10, 2026 https://www.google.com
-www.google.com##.uU7dJb
-www.google.com##.SSwjIe.KxwPGc
+! Aug 22, 2026 https://www.google.com
+www.google.com##.O3yKUb
+www.google.com##.xQQEXb.g55egf
 www.google.com###gws-output-pages-elements-homepage_additional_languages__als
 www.google.com##.YNk70c.TrMVnc.f6F9Be
