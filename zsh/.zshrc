@@ -87,6 +87,8 @@ alias ll='eza -lh --icons --group-directories-first --git'
 alias la='eza -a --icons --group-directories-first --git'
 alias lla='eza -lha --icons --group-directories-first --git'
 alias lt='eza --tree --level=2 --icons'
+alias storage='lsblk -o NAME,MODEL,SERIAL,SIZE,TYPE,TRAN,FSTYPE,MOUNTPOINTS'
+alias network='ip -br addr'
 
 
 # Prompt
