@@ -154,3 +154,5 @@ alias reloadzsh='source ~/.zshrc'
 # Keep this last.
 [[ -r /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]] &&
   source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+fastfetch
