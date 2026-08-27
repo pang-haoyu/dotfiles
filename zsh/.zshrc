@@ -131,7 +131,9 @@ alias lla='eza -lha --icons --group-directories-first --git'
 alias lt='eza --tree --level=2 --icons'
 
 alias storage='lsblk -o NAME,MODEL,SERIAL,SIZE,TYPE,TRAN,FSTYPE,MOUNTPOINTS'
-alias network='printf "%-16s %-14s %s\n" "INTERFACE" "STATE" "ADDRESS"; ip -br addr'
+alias addr='ip -br addr'
+alias route='ip route'
+alias devices='sudo arp-scan --localnet --ouifile=/usr/share/arp-scan/ieee-oui.txt --macfile=/etc/arp-scan/mac-vendor.txt'
 alias reloadzsh='source ~/.zshrc'
 
 
