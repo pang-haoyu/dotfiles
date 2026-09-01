@@ -130,10 +130,12 @@ alias la='eza -a --icons --group-directories-first --git'
 alias lla='eza -lha --icons --group-directories-first --git'
 alias lt='eza --tree --level=2 --icons'
 
-alias storage='lsblk -o NAME,MODEL,SERIAL,SIZE,TYPE,TRAN,FSTYPE,MOUNTPOINTS'
-alias addr='ip -br addr'
-alias route='ip route'
-alias devices='sudo arp-scan --localnet --ouifile=/usr/share/arp-scan/ieee-oui.txt --macfile=/etc/arp-scan/mac-vendor.txt'
+alias disks='lsblk -o NAME,MODEL,SERIAL,SIZE,TYPE,TRAN,FSTYPE,LABEL,MOUNTPOINTS'
+alias ipaddr='ip -br addr'
+alias routes='ip route'
+alias lanscan='sudo arp-scan --localnet --ouifile=/usr/share/arp-scan/ieee-oui.txt --macfile=/etc/arp-scan/mac-vendor.txt'
+alias targz='tar -czf'
+alias untargz='tar -xzf'
 alias reloadzsh='source ~/.zshrc'
 
 
