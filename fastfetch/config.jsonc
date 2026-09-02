@@ -5,7 +5,8 @@
     "source": "Linux",
     "padding": {
       "top": 1,
-      "right": 2
+      "right": 10,
+      "left": 8
     }
   },
 
