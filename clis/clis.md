@@ -15,4 +15,4 @@
 13. sl
 14. yazi
 15. opencode
-
+16. lazyvim

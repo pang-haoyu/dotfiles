@@ -136,6 +136,9 @@ alias routes='ip route'
 alias lanscan='sudo arp-scan --localnet --ouifile=/usr/share/arp-scan/ieee-oui.txt --macfile=/etc/arp-scan/mac-vendor.txt'
 alias targz='tar -czf'
 alias untargz='tar -xzf'
+alias now='date +"%A, %d %B %Y - %I:%M %p"'
+alias cal='ncal -b -M'
+alias calc='qalc'
 alias reloadzsh='source ~/.zshrc'
 
 
