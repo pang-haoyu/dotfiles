@@ -8,7 +8,10 @@ setopt extended_glob
 # PATH
 # Keep entries unique when .zshrc is re-sourced.
 typeset -U path PATH
-path=("$HOME/.opencode/bin" "${path[@]}")
+path=(
+  "$HOME/.opencode/bin"
+  "${path[@]}"
+)
 
 
 # History
@@ -26,7 +29,7 @@ setopt hist_verify
 setopt hist_ignore_space
 
 
-# Emacs-style keybindings
+# Keybindings
 bindkey -e
 
 
@@ -139,6 +142,7 @@ alias untargz='tar -xzf'
 alias now='date +"%A, %d %B %Y - %I:%M %p"'
 alias cal='ncal -b -M'
 alias calc='qalc'
+alias weather="curl -s 'wttr.in/Riccarton,Christchurch,New+Zealand?F'"
 alias reloadzsh='source ~/.zshrc'
 
 
@@ -162,6 +166,8 @@ alias reloadzsh='source ~/.zshrc'
 [[ -r /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]] &&
   source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+
+# Startup display
 printf '\n\n\n'
 fastfetch
 printf '\n\n\n'
