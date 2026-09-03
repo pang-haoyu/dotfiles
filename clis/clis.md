@@ -16,3 +16,8 @@
 14. yazi
 15. opencode
 16. lazyvim
+17. duf
+18. dust
+19. procs
+20. ncal
+21. qalc
